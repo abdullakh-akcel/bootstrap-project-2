@@ -1,0 +1,340 @@
+.navbar .nav-link.active{
+    color: blueviolet;
+}
+
+.navbar-brand{
+    color: blueviolet;
+}
+
+.navbar a{
+    font-weight: bold;
+}
+
+section#home{
+    background-image: linear-gradient(rgba(249, 0, 232, 0.3), rgba(107, 0, 140, 0.8)), url(img/laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section#home button{
+    background-color: blueviolet;
+    padding: 20px 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+section#home button:hover{
+    background-color: rgb(122, 27, 211);
+}
+
+section#home .line{
+    margin: 30px auto;
+    width: 60px;
+    height: 3px;
+    background-color: blueviolet;
+    
+}
+
+section#home h1{
+    color: white;
+}
+
+section#home p{
+    color: rgb(200, 200, 200);
+    margin-bottom: 35px;
+}
+
+section#about{
+    padding: 100px 0;
+    background-color: blueviolet;
+    color: white;
+}
+
+section#about .line{
+    background-color: white;
+    margin: 30px auto;
+    width: 60px;
+    height: 3px;
+}
+
+section#about p{
+    color: rgb(200, 200, 200);
+    margin-bottom: 35px;
+}
+
+section#about button{
+    padding: 20px 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+section#about button:hover{
+    background-color: rgb(205, 201, 201);
+}
+
+section#services{
+    padding: 100px 0;
+}
+
+section#services h1{
+    text-align: center;
+}
+
+section#services .line{
+    margin: 30px auto;
+    width: 60px;
+    height: 3px;
+    background-color: blueviolet;
+}
+
+section#services .feature{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section#services .feature i{
+    color: blueviolet;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+section#services .feature p{
+    color: gray;
+}
+
+section#portfolio img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+section#portfolio .image{
+    position: relative;
+}
+
+section#portfolio .block{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(138, 43, 226, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+section#portfolio .block:hover{
+    opacity: 1;
+}
+
+section#portfolio .block h4{
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+section#portfolio .block small{
+    font-weight: 700;
+    color: rgb(156, 156, 156);
+}
+
+.download{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.download h1{
+    color: white;
+}
+
+.download button{
+    padding: 20px 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.download button:hover{
+    background-color: rgb(205, 201, 201);
+}
+
+section#contact{
+    padding: 100px 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+section#contact .block{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 30px;
+    padding-left: 20px;
+    box-shadow: 0 0 10px rgba(107, 0, 140, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section#contact .block:hover{
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 15px blueviolet;
+}
+
+section#contact .input{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+section#contact .input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+section#contact .input label{
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+section#contact .input input:focus ~label,
+section#contact .input input:valid ~label{
+    transform: translateY(-23px);
+    font-size: 15px;
+    color: gray;
+}
+
+section#contact form button{
+    background-color: blueviolet;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+section#contact p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+section#contact .line{
+    margin: 20px auto;
+    width: 60px;
+    height: 3px;
+    background-color: blueviolet;
+}
+
+section#contact form .text-block{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    box-shadow: 0 0 10px rgba(107, 0, 140, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section#contact form .text-block:hover{
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 15px blueviolet;
+}
+
+section#contact .text{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+section#contact .text textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+section#contact .text label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+section#contact .text textarea:focus ~label,
+section#contact .input input:valid ~label{
+    transform: translateY(-10px);
+    font-size: 15px;
+    color: gray;
+}
+
+section#contact i{
+    font-size: 30px;
+    margin-top: 60px;
+    color: gray;
+}
+
+.end{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.end p{
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+    color: gray;
+}
